@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JPG to WEBP</title>
     <link rel="stylesheet" href="/CSS/style.css" />
   </head>
   <body>
+    <div class="convert">
+      <h1>JPG to WEBP</h1>
+      <input
+        type="file"
+        accept="image/*"
+        name="convert"
+        id="userImage"
+        onchange="convertImage(event)"
+      />
+      <div class="mask">
+        <h4>Upload Image</h4>
+      </div>
+    </div>
+    <div class="images">
+      <h2>IMG</h2>
+      <div><img src="" alt="" id="Uimage" /></div>
+      <h2>WEBP</h2>
+      <div><img src="" alt="" id="Wimage" /></div>
+    </div>
     <script src="/JS/script.js"></script>
   </body>
 </html>

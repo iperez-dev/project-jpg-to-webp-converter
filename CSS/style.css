@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.convert {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+}
+#userImage {
+  height: 100px;
+  background-color: aliceblue;
+  cursor: pointer;
+  opacity: 0;
+}
+.mask {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
+  width: 255px;
+  background-color: rgb(199, 199, 199);
+  z-index: -1;
+}
+.mask h4 {
+  margin-top: 40px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.image div {
+  width: 200px;
+}
+img {
+  width: 40%;
+}
